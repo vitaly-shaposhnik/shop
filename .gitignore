@@ -19,3 +19,7 @@ bin/doctrine*
 bin/phpspec
 bin/webunit
 vendor/*
+
+.idea/*
+composer.phar
+composer.lock

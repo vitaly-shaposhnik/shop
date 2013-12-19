@@ -2645,16 +2645,16 @@
         },
         {
             "name": "payum/payum",
-            "version": "0.6.2",
+            "version": "0.6.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Payum/Payum.git",
-                "reference": "a77a6f96316b1e5e168a7fe804284b85c1f58c11"
+                "reference": "3561eb16dcc1620668a52eed99eeae9cc379d8d5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Payum/Payum/zipball/a77a6f96316b1e5e168a7fe804284b85c1f58c11",
-                "reference": "a77a6f96316b1e5e168a7fe804284b85c1f58c11",
+                "url": "https://api.github.com/repos/Payum/Payum/zipball/3561eb16dcc1620668a52eed99eeae9cc379d8d5",
+                "reference": "3561eb16dcc1620668a52eed99eeae9cc379d8d5",
                 "shasum": ""
             },
             "require": {
@@ -2729,21 +2729,21 @@
                 "paypal rest",
                 "recurring payment"
             ],
-            "time": "2013-10-27 15:45:58"
+            "time": "2013-10-31 14:54:25"
         },
         {
             "name": "payum/payum-bundle",
-            "version": "0.6.0",
+            "version": "0.6.2",
             "target-dir": "Payum/Bundle/PayumBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Payum/PayumBundle.git",
-                "reference": "41426132caa41a653216bb2de0ed80273f763311"
+                "reference": "33b82cffa59e855c205eb9ed860bea3fdc6dfe14"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Payum/PayumBundle/zipball/41426132caa41a653216bb2de0ed80273f763311",
-                "reference": "41426132caa41a653216bb2de0ed80273f763311",
+                "url": "https://api.github.com/repos/Payum/PayumBundle/zipball/33b82cffa59e855c205eb9ed860bea3fdc6dfe14",
+                "reference": "33b82cffa59e855c205eb9ed860bea3fdc6dfe14",
                 "shasum": ""
             },
             "require": {
@@ -2756,6 +2756,7 @@
                 "fp/testo": "@dev",
                 "payum/authorize-net-aim": "0.6.*",
                 "payum/be2bill": "0.6.*",
+                "payum/offline": "0.6.*",
                 "payum/omnipay-bridge": "0.6.*",
                 "payum/payex": "0.6.*",
                 "payum/paypal-express-checkout-nvp": "0.6.*",
@@ -2765,6 +2766,7 @@
             "suggest": {
                 "payum/authorize-net-aim": "If you want to use authorize.net gateway",
                 "payum/be2bill": "If you want to use be2bill gateway",
+                "payum/offline": "If you want to manage offline payments",
                 "payum/omnipay-bridge": "If you want to use omnipay provided gateways",
                 "payum/payex": "If you want to use payex gateway",
                 "payum/paypal-express-checkout-nvp": "If you want to use paypal express checkout nvp gateway",
@@ -2804,15 +2806,16 @@
             "keywords": [
                 "authorize.net",
                 "be2bill",
+                "offline",
                 "omnipay",
                 "payex",
                 "payment",
                 "paypal",
                 "paypal express checkout",
                 "paypal pro checkout",
-                "paypal recurring payment"
+                "recurring payment"
             ],
-            "time": "2013-10-25 13:57:33"
+            "time": "2013-10-31 15:04:50"
         },
         {
             "name": "phpcollection/phpcollection",
@@ -3543,12 +3546,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/whiteoctober/WhiteOctoberPagerfantaBundle.git",
-                "reference": "18ac070194cef0d9e024bec050301cbf3122c787"
+                "reference": "8371fd2c040df491ac3094fa27697a71accf958c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/whiteoctober/WhiteOctoberPagerfantaBundle/zipball/18ac070194cef0d9e024bec050301cbf3122c787",
-                "reference": "18ac070194cef0d9e024bec050301cbf3122c787",
+                "url": "https://api.github.com/repos/whiteoctober/WhiteOctoberPagerfantaBundle/zipball/8371fd2c040df491ac3094fa27697a71accf958c",
+                "reference": "8371fd2c040df491ac3094fa27697a71accf958c",
                 "shasum": ""
             },
             "require": {
@@ -3587,7 +3590,7 @@
                 "page",
                 "paging"
             ],
-            "time": "2013-10-28 14:55:41"
+            "time": "2013-10-31 11:28:49"
         },
         {
             "name": "willdurand/negotiation",
@@ -4085,7 +4088,8 @@
                 {
                     "name": "Jonathan Wage",
                     "email": "jonwage@gmail.com",
-                    "homepage": "http://www.jwage.com/"
+                    "homepage": "http://www.jwage.com/",
+                    "role": "Creator"
                 }
             ],
             "description": "Data Fixtures for all Doctrine Object Managers",
